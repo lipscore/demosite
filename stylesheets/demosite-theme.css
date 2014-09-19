@@ -16,6 +16,9 @@
   box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.2);
   color: #fff !important; }
 
+.btn-green {
+  background-color: #5CB85C !important; }
+
 /* line 19, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/demosite-theme.sass */
 .btn-md {
   font-size: 18px;

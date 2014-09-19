@@ -1,19 +1,22 @@
 (function() {
   $(function() {
+    $('#btn-reminder-email').prop('disabled', false);
     $('.lipscore-purchase').attr('ls-product-url', document.URL);
     $('.welcome-close').on('click', function(e) {
       e.preventDefault();
-      return $('.welcome-wrapper').addClass('hidden');
+      $('.welcome-wrapper').addClass('hidden');
     });
     $('.reminder-modal-close').on('click', function(e) {
       e.preventDefault();
-      return $('#reminder-modal').modal('hide');
+      $('#reminder-modal').modal('hide');
     });
-    return $('#btn-reminder-email').on('click', function(e) {
+    $('#btn-reminder-email').on('click', function(e) {
       e.preventDefault();
       $('.lipscore-purchase').attr('ls-email', $('#reminder-email').val());
       lipscore.triggerPurchasedProducts();
-      return $('#reminder-modal').modal('hide');
+      $('#btn-reminder-email').addClass('btn-green');
+      $('#btn-reminder-email').text('Sent!');
+      $('#btn-reminder-email').prop('disabled', true);
     });
   });
 
