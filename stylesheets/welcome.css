@@ -21,8 +21,8 @@
 /* line 15, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/welcome.sass */
 .welcome-close {
   position: absolute;
-  right: 20px;
-  top: 20px;
+  right: -40px;
+  top: -25px;
   z-index: 100; }
 
 /* line 21, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/welcome.sass */
@@ -45,14 +45,19 @@
     max-width: 600px;
     margin-left: 60px; }
 
+.welcome-container {
+  position: relative; }
+
 /* line 37, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/welcome.sass */
 .welcome-wrapper {
   background-color: #F9F9F9;
   color: #838383;
-  padding: 40px 0 30px;
-  position: relative; }
+  padding: 40px 0 30px; }
 
 @media screen and (max-width: 767px) {
-  /* line 44, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/welcome.sass */
+  .welcome-close {
+    right: 15px;
+    top: 10px; }
+
   .welcome-wrapper {
     padding-top: 10px; } }
