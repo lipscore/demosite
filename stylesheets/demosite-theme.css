@@ -1,0 +1,112 @@
+/* line 3, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/demosite-theme.sass */
+.btn-demosite {
+  color: #4A4A4A;
+  background: #E0D876;
+  border-radius: 20px;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 9px 48px 10px; }
+
+/* line 11, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/demosite-theme.sass */
+.btn-lipscore {
+  background: #E92631 !important;
+  background-image: linear-gradient(-179deg, transparent 0%, rgba(0, 0, 0, 0.1) 100%) !important;
+  border: none;
+  border-radius: 4px;
+  box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.2);
+  color: #fff !important; }
+
+/* line 19, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/demosite-theme.sass */
+.btn-md {
+  font-size: 18px;
+  line-height: 18px;
+  padding: 11px 40px 11px; }
+
+/* line 24, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/demosite-theme.sass */
+.cart-icon {
+  position: absolute !important;
+  right: 0;
+  bottom: 0; }
+
+/* line 29, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/demosite-theme.sass */
+.close-icon {
+  height: 24px;
+  width: 24px; }
+
+/* line 32, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/demosite-theme.sass */
+.dark-blue {
+  color: #3E77B5; }
+
+/* line 35, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/demosite-theme.sass */
+.dark-yellow {
+  color: #E0D876; }
+
+/* line 38, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/demosite-theme.sass */
+.lipscore-logo {
+  height: 60px;
+  width: 220px;
+  margin: 0 20px 20px 0; }
+
+/* line 42, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/demosite-theme.sass */
+h2 {
+  color: #4A4A4A;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px; }
+
+/* line 50, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/demosite-theme.sass */
+.navbar-demosite {
+  background-color: #FFF;
+  border: none;
+  line-height: 60px;
+  margin-bottom: 0;
+  min-height: 140px;
+  padding-bottom: 40px;
+  padding-top: 40px; }
+  /* line 59, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/demosite-theme.sass */
+  .navbar-demosite .navbar-brand {
+    font-size: 48px;
+    height: 60px;
+    line-height: 60px;
+    padding: 0; }
+  /* line 65, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/demosite-theme.sass */
+  .navbar-demosite .navbar-collapse {
+    text-align: center; }
+  /* line 68, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/demosite-theme.sass */
+  .navbar-demosite .navbar-nav {
+    float: none;
+    display: inline-block;
+    vertical-align: middle; }
+    /* line 72, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/demosite-theme.sass */
+    .navbar-demosite .navbar-nav > li {
+      padding: 10px 15px; }
+      /* line 74, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/demosite-theme.sass */
+      .navbar-demosite .navbar-nav > li > a {
+        line-height: 20px;
+        padding: 5px 0; }
+    /* line 77, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/demosite-theme.sass */
+    .navbar-demosite .navbar-nav > .active > a {
+      background-color: #FFF;
+      border: solid #E0D876;
+      border-width: 0 0 4px; }
+      /* line 81, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/demosite-theme.sass */
+      .navbar-demosite .navbar-nav > .active > a:hover, .navbar-demosite .navbar-nav > .active > a:active, .navbar-demosite .navbar-nav > .active > a:link, .navbar-demosite .navbar-nav > .active > a:visited {
+        background-color: #FFF; }
+
+/* line 84, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/demosite-theme.sass */
+#navbar-header {
+  position: relative; }
+
+@media screen and (max-width: 767px) {
+  /* line 88, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/demosite-theme.sass */
+  .cart-icon {
+    position: static !important; }
+
+  /* line 91, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/demosite-theme.sass */
+  h2 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 15px;
+    margin-bottom: 14px; } }

@@ -1,0 +1,188 @@
+/* line 3, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+.product-desc-wrapper > p {
+  color: #808080;
+  font-family: Verdana;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px; }
+
+/* line 10, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+.product-image {
+  height: 260px;
+  width: 440px; }
+
+/* line 13, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+.product-title {
+  font-size: 44px;
+  font-weight: normal;
+  color: #3E77B5;
+  line-height: 60px;
+  margin-bottom: 26px;
+  margin-top: 0; }
+
+/* line 21, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+.product-price-wrapper {
+  color: #4A4A4A;
+  font-size: 24px;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  text-align: right; }
+  /* line 28, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+  .product-price-wrapper > span {
+    vertical-align: middle;
+    margin-right: 20px; }
+
+/* line 32, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+.product-wrapper {
+  margin-top: 70px; }
+
+/* line 35, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+.rating-wrapper {
+  margin-top: 20px; }
+
+/* line 38, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+#reminder-email-form {
+  margin-top: 40px; }
+  /* line 41, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+  #reminder-email-form .btn {
+    margin-left: 20px;
+    vertical-align: top; }
+  /* line 44, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+  #reminder-email-form .help-block {
+    font-family: Verdana;
+    font-size: 12px;
+    color: #979797;
+    line-height: 20px;
+    text-align: center; }
+  /* line 50, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+  #reminder-email-form input {
+    height: 40px;
+    line-height: 23px;
+    min-width: 445px;
+    text-align: center; }
+
+/* line 56, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+.reminder-hint {
+  color: #9B9B9B;
+  font-family: Verdana;
+  font-size: 12px;
+  line-height: 15px;
+  max-width: 220px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: -40px; }
+
+/* line 67, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+.reminder-modal-body {
+  background-color: #F9F9F9;
+  border-radius: 4px;
+  color: #838383;
+  font-family: Verdana;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 80px 50px;
+  position: relative; }
+
+/* line 77, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+.reminder-modal-close {
+  position: absolute;
+  right: 20px;
+  top: -20px; }
+
+/* line 82, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+.reminder-modal-content {
+  background-color: #F9F9F9;
+  border-radius: 4px; }
+
+/* line 86, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+.reminder-modal-dialog {
+  width: 780px; }
+
+/* line 89, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+.review-list-wrapper {
+  background-color: #F9F9F9;
+  margin: 30px 0 40px;
+  padding: 0 0 30px; }
+
+@media screen and (max-width: 767px) {
+  /* line 95, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+  .help-block {
+    display: none;
+    font-size: 7px !important;
+    line-height: 11px; }
+
+  /* line 100, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+  .product-desc-wrapper {
+    margin-top: 30px; }
+
+  /* line 103, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+  .product-desc-wrapper > p {
+    color: #808080;
+    font-family: Verdana;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 14px; }
+
+  /* line 110, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+  .product-image {
+    height: 173px;
+    width: 293px; }
+
+  /* line 113, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+  .product-price-wrapper {
+    margin-top: 80px; }
+
+    .product-price-wrapper > span {
+      margin-right: 10px; }
+
+  /* line 116, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+  .product-title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 16px;
+    margin-top: 0; }
+
+  /* line 122, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+  .reminder-hint {
+    max-width: 100%; }
+
+  /* line 125, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+  .product-wrapper {
+    margin-top: 35px; }
+
+  /* line 128, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+  #reminder-email-form {
+    margin-top: 20px; }
+    /* line 130, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+    #reminder-email-form .btn {
+      margin-left: 0;
+      width: 100%; }
+    /* line 133, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+    #reminder-email-form input {
+      height: 40px;
+      line-height: 23px;
+      min-width: 0;
+      text-align: center; }
+
+  /* line 139, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+  .reminder-modal-body {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px 20px 20px;
+    position: relative; }
+
+  /* line 145, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+  .reminder-modal-close {
+    top: 15px;
+    right: 15px; }
+
+  /* line 149, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+  .reminder-modal-dialog {
+    width: 300px; }
+
+  /* line 152, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/product.sass */
+  .review-list-wrapper {
+    margin-bottom: 0;
+    padding: 0; } }

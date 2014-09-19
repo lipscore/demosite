@@ -1,0 +1,58 @@
+/* line 3, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/welcome.sass */
+.code-icon {
+  height: 28px;
+  width: 48px; }
+
+/* line 6, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/welcome.sass */
+.functional-icon {
+  height: 40px;
+  width: 48px; }
+
+/* line 9, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/welcome.sass */
+.moderate-icon {
+  height: 48px;
+  width: 45px; }
+
+/* line 12, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/welcome.sass */
+.safe-icon {
+  height: 48px;
+  width: 37px; }
+
+/* line 15, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/welcome.sass */
+.welcome-close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 100; }
+
+/* line 21, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/welcome.sass */
+.welcome-header {
+  color: #7C7C7C;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 20px;
+  margin: 30px 0 20px;
+  text-align: center; }
+
+/* line 29, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/welcome.sass */
+.welcome-feature {
+  min-height: 80px; }
+  /* line 31, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/welcome.sass */
+  .welcome-feature > img {
+    float: left; }
+  /* line 33, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/welcome.sass */
+  .welcome-feature > p {
+    max-width: 600px;
+    margin-left: 60px; }
+
+/* line 37, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/welcome.sass */
+.welcome-wrapper {
+  background-color: #F9F9F9;
+  color: #838383;
+  padding: 40px 0 30px;
+  position: relative; }
+
+@media screen and (max-width: 767px) {
+  /* line 44, /Users/n0ble/workspace/lipscore/demosite/source/stylesheets/welcome.sass */
+  .welcome-wrapper {
+    padding-top: 10px; } }

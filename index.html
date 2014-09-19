@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Demosite</title>
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport" />
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="./stylesheets/demosite-theme.css" rel="stylesheet" type="text/css" />
+    <link href="./stylesheets/product.css" rel="stylesheet" type="text/css" />
+    <link href="./stylesheets/welcome.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="./javascripts/products.js" type="text/javascript"></script>
+    
+    <link href="https://static.lipscore.com/assets/lipscore-v1.css" rel="stylesheet" />
+    <script charset="utf-8" src="https://static.lipscore.com/assets/en/lipscore-v1.js"></script>
+    <script>
+      window.lipscoreInit = function() { 
+        lipscore.init({
+          apiKey: "12f7f5deb7c21c5576ea43b1", 
+          autoPurchase: false 
+        });
+      };
+    </script>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-demosite" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed" data-target="#navbar-header" data-toggle="collapse" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+            <span class="dark-blue">Demo</span>
+            <span class="dark-yellow">Store</span>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-header">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Smartphones</a></li>
+            <li><a href="#">Tablet</a></li>
+            <li><a href="#">Photo&Video</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li class="cart-icon"><a href="#"><img width="32" height="24" src="./images/icon-header-cart.png" /></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="welcome-wrapper">
+      <a class="welcome-close" href="#"><img class="close-icon" src="./images/icon-intro-close.png" /></a>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img class="lipscore-logo" src="./images/logo-intro-lipscore.png" />
+          </div>
+          <div class="col-md-9">
+            <p>
+              Welcome to the *extremely* simple Lipscore Demosite! This site is not meant to dazzle anyone with it's maginificent design and cool transitions, it is simply a site created so you can test out all the great functionalities of the Lipscore Widgets. What we have created is a very simple mock-up of a product details page to give you an idea of how one type of integration can be done.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h6 class="welcome-header">A FEW THINGS YOU SHOULD KNOW</h6></div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 welcome-feature">
+              <img class="functional-icon" src="./images/icon-intro-feature-functional.png" />
+              <p>The widgets are 100% fully functioning and provides actual functionality that you can have on your website</p>
+            </div>
+            <div class="col-md-3 welcome-feature">
+              <img class="safe-icon" src="./images/icon-intro-feature-safe.png" />
+              <p>Everything you write/upload in this demosite will not be visible anywhere else</p>
+            </div>
+            <div class="col-md-3 welcome-feature">
+              <img class="moderate-icon" src="./images/icon-intro-feature-moderate.png" />
+              <p>All reviews with images/videos are automatically marked for moderation and will not appear immediately</p>
+            </div>
+            <div class="col-md-3 welcome-feature">
+              <img class="code-icon" src="./images/icon-intro-feature-code.png" />
+              <p>If you know a tiny bit about HTML you can right-click anywhere on this page and choose "view source" to see how simple an integration is done</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="product-wrapper">
+          <div class="row">
+            <div class="col-md-6">
+              <h1 class="product-title">HTC One M8 Gold</h1>
+              <div>
+                <img class="product-image" src="./images/pic-product-sample.jpg" />
+              </div>
+              <div class="rating-wrapper">
+                <!-- Lipscore rating widget -->
+                <div id="lipscore-rating" ls-brand="HTC" ls-id="LipscoreDemo_4716051" ls-id-type="sku" ls-product-name="LipscoreDemo HTC One M8 Gold"></div>
+                <!-- /Lipscore rating widget -->
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="product-price-wrapper">
+                <div class="reminder-hint">Click Add to cart to test the review reminder email feature!</div>
+                <span>$749</span>
+                <button class="btn btn-demosite" data-target="#reminder-modal" data-toggle="modal">ADD TO CART</button>
+              </div>
+              <div class="product-desc-wrapper">
+                <h2>The Best Just Got Better</h2>
+                <p>
+                  Last year’s HTC One delivered a wide range of innovative smartphone breakthroughs: beautiful all-metal design, an ever-changing home screen that streams customized online feeds, dual front-facing speakers and an amazing HTC UltraPixel camera.
+                </p>
+                <p>
+                  The HTC One M8 ensures you're never out of touch with your world (view larger). But innovation doesn’t rest and neither does HTC. That’s why we’re introducing the HTC One (M8). With a full wrap-around, high quality, all-metal design with curved edges that naturally fit in your hand, significant enhancements to every breakthrough feature of last year’s model, as well as all-new innovations, the HTC One (M8) is designed to impress and built to perform.
+                </p>
+                <!-- Lipscore purchase block -->
+                <div class="lipscore-purchase" ls-brand="HTC" ls-email="" ls-id="LipscoreDemo_4716051" ls-id-type="mpn" ls-product-name="LipscoreDemo HTC One M8 Gold" ls-product-url="" ls-voucher-code="voucher_code" ls-voucher-descr="test voucher"></div>
+                <!-- /Lipscore purchase block -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2>Write a review of the HTC One M8 Gold</h2>
+        <!-- Lipscore post new review form -->
+        <div id="lipscore-review-post"></div>
+        <!-- /Lipscore post new review form -->
+      </div>
+      <div class="review-list-wrapper">
+        <div class="container">
+          <h2>Review</h2>
+          <!-- Lipscore list of reviews -->
+          <div id="lipscore-review-list"></div>
+          <!-- /Lipscore list of reviews -->
+        </div>
+      </div>
+    <div class="modal fade" id="reminder-modal">
+      <div class="modal-dialog reminder-modal-dialog">
+        <div class="modal-content reminder-modal-content">
+          <div class="modal-body reminder-modal-body">
+            <a class="reminder-modal-close" href="#"><img class="close-icon" src="./images/icon-intro-close.png" /></a>
+            <h2>Banjo tote bag bicycle rights</h2>
+            <p>
+              High Life sartorial cray craft beer whatever street art fap. Hashtag typewriter banh mi, squid keffiyeh High Life Brooklyn twee craft beer tousled chillwave. PBR&B selfies chillwave, bespoke tote bag blog post-ironic.
+            </p>
+            <form class="form-inline" id="reminder-email-form" role="form">
+              <div class="form-group">
+                <label class="sr-only" for="reminder-email">Email address</label>
+                <input class="form-control" id="reminder-email" placeholder="Enter your email here" type="email" />
+                <span class="help-block">We will send you a test email and won’t use your email for spam.</span>
+              </div>
+              <button class="btn btn-lipscore btn-md" id="btn-reminder-email" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
