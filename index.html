@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Lipscore Live Demo page - try for yourself how Lipscore widgets actually works</title>
-
-    <meta content="Lipscore.com provides trusted product ratings and reviews for your website at very good prices, and here you can try out the actual functionality for yourself." name="description" />
+    <title>Demosite</title>
     <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport" />
     <meta charset="utf-8" />
 
@@ -29,7 +27,7 @@
 
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-demosite" role="navigation">
+    <!--nav class="navbar navbar-default navbar-demosite" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button class="navbar-toggle collapsed" data-target="#navbar-header" data-toggle="collapse" type="button">
@@ -53,23 +51,33 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav-->
     <div class="welcome-wrapper">
       <div class="container welcome-container">
-        <a class="welcome-close" href="#"><img class="close-icon" src="./images/icon-intro-close.png" /></a>
+        <!--a class="welcome-close" href="#"><img class="close-icon" src="./images/icon-intro-close.png" /></a-->
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-12">
             <img class="lipscore-logo" src="./images/logo-intro-lipscore.png" />
           </div>
-          <div class="col-md-9">
+		 </div>
+		 <div class="row">
+          <div class="col-md-12">
             <p>
-              Welcome to the *extremely* simple Lipscore Demosite! This site is not meant to dazzle anyone with it's maginificent design and cool transitions, it is simply a site created so you can test out all the great functionalities of the Lipscore Widgets. What we have created is a very simple mock-up of a product details page to give you an idea of how one type of integration can be done.
+              Welcome to the Lipscore Demosite! Lipscore provides ratings and review plugins for your website 100% free of 
+			  charge, and this site is created to demonstrate the functionality of the widgets. Feel free to write a review,
+			  give a rating and maybe even test the <b>post-purchase email</b> (click Buy Now) that we send yo your customers?
+			  <br>
+			  <br>
+			  Please be aware that this is only one type of integration with a look that we chose, there are a range of settings
+			  and features you can choose between once you sign up.
+			  
             </p>
           </div>
         </div>
-        <div class="row">
+        <!--div class="row">
           <div class="col-md-12">
-            <h6 class="welcome-header">A FEW THINGS YOU SHOULD KNOW</h6></div>
+            <h6 class="welcome-header">A FEW THINGS YOU SHOULD KNOW</h6>
+			</div>
           </div>
           <div class="row">
             <div class="col-md-3 welcome-feature">
@@ -89,51 +97,66 @@
               <p>If you know a tiny bit about HTML you can right-click anywhere on this page and choose "view source" to see how simple an integration is done</p>
             </div>
           </div>
-        </div>
+        </div-->
       </div>
       <div class="container">
         <div class="product-wrapper">
           <div class="row">
             <div class="col-md-6">
               <h1 class="product-title">HTC One M8 Gold</h1>
-              <div>
+			  
+              <div class="row">
                 <img class="product-image" src="./images/pic-product-sample.jpg" />
               </div>
-              <div class="rating-wrapper">
-                <!-- Lipscore rating widget -->
-                <div id="lipscore-rating" ls-brand="HTC" ls-id="LipscoreDemo_4716051" ls-id-type="sku" ls-product-name="LipscoreDemo HTC One M8 Gold"></div>
-                <!-- /Lipscore rating widget -->
+              <div class="row">
+				  <div class="col-md-5">
+					<button class="btn btn-demosite" data-target="#reminder-modal" data-toggle="modal">BUY NOW</button>
+				  </div>
+				  <div class="col-md-7" style="color: #E92631;">
+					<p>Click "Buy Now" to test the <br>post-purchase email feature!</p>
+				  </div>
               </div>
             </div>
             <div class="col-md-6">
-              <div class="product-price-wrapper">
-                <div class="reminder-hint">Click Add to cart to test the review reminder email feature!</div>
-                <span>$749</span>
-                <button class="btn btn-demosite" data-target="#reminder-modal" data-toggle="modal">ADD TO CART</button>
-              </div>
+				<div class="row">
+					<div class="col-md-7">
+						<h2>The Best Just Got Better</h2>
+					</div>
+					<div class="col-md-5">
+						<!-- Lipscore rating widget -->
+						<div id="lipscore-rating" ls-brand="HTC" ls-id="LipscoreDemo_4716051" ls-id-type="sku" ls-product-name="LipscoreDemo HTC One M8 Gold"></div>
+						<!-- /Lipscore rating widget -->
+					</div>
+				</div>
               <div class="product-desc-wrapper">
-                <h2>The Best Just Got Better</h2>
                 <p>
                   Last year’s HTC One delivered a wide range of innovative smartphone breakthroughs: beautiful all-metal design, an ever-changing home screen that streams customized online feeds, dual front-facing speakers and an amazing HTC UltraPixel camera.
                 </p>
                 <p>
                   The HTC One M8 ensures you're never out of touch with your world (view larger). But innovation doesn’t rest and neither does HTC. That’s why we’re introducing the HTC One (M8). With a full wrap-around, high quality, all-metal design with curved edges that naturally fit in your hand, significant enhancements to every breakthrough feature of last year’s model, as well as all-new innovations, the HTC One (M8) is designed to impress and built to perform.
                 </p>
+				<p>
+					<b>Give your rating now</b>: 
+					<span class="lipscore-rating-slider" ls-brand="HTC" ls-id="LipscoreDemo_4716051" ls-id-type="sku" ls-product-name="LipscoreDemo HTC One M8 Gold"></span>
+				</p>
                 <!-- Lipscore purchase block -->
-                <div class="lipscore-purchase" ls-brand="HTC" ls-email="" ls-id="LipscoreDemo_4716051" ls-id-type="mpn" ls-product-name="LipscoreDemo HTC One M8 Gold" ls-product-url="" ls-voucher-code="voucher_code" ls-voucher-descr="test voucher"></div>
+                <div class="lipscore-purchase" ls-brand="HTC" ls-email="" ls-name="" ls-id="LipscoreDemo_4716051" ls-id-type="sku" ls-product-name="LipscoreDemo HTC One M8 Gold" ls-product-url="" ls-voucher-code="LSDISC-104543" ls-voucher-descr="We give away one free college hoodie each month to one randomly picked reviewer! In addition you will get a 15% discount on your next purchase by entering the voucher code that will be emailed to you after your review has been published."></div>
                 <!-- /Lipscore purchase block -->
               </div>
             </div>
           </div>
         </div>
-        <h2>Write a review of the HTC One M8 Gold</h2>
+        <h2>
+			Write a review of the HTC One M8 Gold
+			<span class="lipscore-rating-small" ls-brand="HTC" ls-id="LipscoreDemo_4716051" ls-id-type="sku" ls-product-name="LipscoreDemo HTC One M8 Gold"></span>
+		</h2>
         <!-- Lipscore post new review form -->
         <div id="lipscore-review-post"></div>
         <!-- /Lipscore post new review form -->
       </div>
       <div class="review-list-wrapper">
         <div class="container">
-          <h2>Review</h2>
+          <h2>Reviews</h2>
           <!-- Lipscore list of reviews -->
           <div id="lipscore-review-list"></div>
           <!-- /Lipscore list of reviews -->
@@ -144,21 +167,47 @@
         <div class="modal-content reminder-modal-content">
           <div class="modal-body reminder-modal-body">
             <a class="reminder-modal-close" href="#"><img class="close-icon" src="./images/icon-intro-close.png" /></a>
-            <h2>Banjo tote bag bicycle rights</h2>
+            <h2>Test the post-purchase customer email</h2>
             <p>
-              High Life sartorial cray craft beer whatever street art fap. Hashtag typewriter banh mi, squid keffiyeh High Life Brooklyn twee craft beer tousled chillwave. PBR&B selfies chillwave, bespoke tote bag blog post-ironic.
+			  A given period after  each sale you do in your webshop we send your customer a custom branded email asking if he/she 
+			  would like to add a review of the product they purchased. This is called the post-purchase email and is the most vital
+			  feature of the Lipscore software to increase the number of reviews. By sending this email we increase the chance of the 
+			  customer actually writing a review by several hundred percent! To further increase the review frequency we also support 
+			  the possibility of giving them a discount coupon for their next purchase (which again drives more sales), or a special 
+			  message telling them that review authors compete in a monthly contest or something. <br><br>
+			  Enter your email now to test how this works!
             </p>
             <form class="form-inline" id="reminder-email-form" role="form">
               <div class="form-group">
-                <label class="sr-only" for="reminder-email">Email address</label>
-                <input class="form-control" id="reminder-email" placeholder="Enter your email here" type="email" />
+                <p>
+					<label class="sr-only" for="reminder-name">Your name</label>
+					<input class="form-control" id="reminder-name" placeholder="Firstname Lastname" type="name" />
+				</p>
+				<p>
+					<label class="sr-only" for="reminder-email">Email address</label>
+					<input class="form-control" id="reminder-email" placeholder="email@address.com" type="email" />
+				</p>
+				
                 <span class="help-block">We will send you a test email and won’t use your email for spam.</span>
+				<button class="btn btn-lipscore btn-md" id="btn-reminder-email" type="submit">Submit</button>
               </div>
-              <button class="btn btn-lipscore btn-md" id="btn-reminder-email" type="submit">Submit</button>
+              </div>
             </form>
           </div>
         </div>
       </div>
     </div>
-  </body>
+
+	<!-- ClickDesk Live Chat Service for websites -->
+	<script type='text/javascript'>
+	var _glc =_glc || []; _glc.push('all_ag9zfmNsaWNrZGVza2NoYXRyDwsSBXVzZXJzGJvjnLQGDA');
+	var glcpath = (('https:' == document.location.protocol) ? 'https://my.clickdesk.com/clickdesk-ui/browser/' : 
+	'http://my.clickdesk.com/clickdesk-ui/browser/');
+	var glcp = (('https:' == document.location.protocol) ? 'https://' : 'http://');
+	var glcspt = document.createElement('script'); glcspt.type = 'text/javascript'; 
+	glcspt.async = true; glcspt.src = glcpath + 'livechat-new.js';
+	var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(glcspt, s);
+	</script>
+	<!-- End of ClickDesk -->
+	</body>
 </html>
